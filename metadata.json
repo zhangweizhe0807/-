@@ -1,0 +1,9 @@
+{
+  "name": "第40屆台大城鄉所學會候選人：麻筱祺 × 李誡",
+  "description": "國立臺灣大學建築與城鄉研究所第40屆學會正副會長候選人麻筱祺與李誡的個人介紹、候選宣言與政見願景網頁。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+

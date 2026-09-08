@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="corkBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#corkBg)"/>
+  <rect x="15" y="15" width="770" height="470" rx="12" fill="none" stroke="#0f766e" stroke-width="2" stroke-dasharray="8,4" opacity="0.5"/>
+
+  <!-- Top Badges "3" and "5" -->
+  <g transform="translate(60, 40)">
+    <!-- Badge 3 -->
+    <circle cx="45" cy="45" r="40" fill="#0f766e" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.15))"/>
+    <circle cx="45" cy="45" r="34" fill="none" stroke="#ccfbf1" stroke-width="2"/>
+    <text x="45" y="61" font-family="'Noto Serif TC', serif" font-size="46" font-weight="900" fill="#ffffff" text-anchor="middle">3</text>
+
+    <!-- Plus/Ampersand -->
+    <text x="102" y="55" font-family="'Noto Sans TC', sans-serif" font-size="28" font-weight="900" fill="#64748b" text-anchor="middle">&amp;</text>
+
+    <!-- Badge 5 -->
+    <circle cx="160" cy="45" r="40" fill="#b45309" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.15))"/>
+    <circle cx="160" cy="45" r="34" fill="none" stroke="#fef3c7" stroke-width="2"/>
+    <text x="160" y="61" font-family="'Noto Serif TC', serif" font-size="46" font-weight="900" fill="#ffffff" text-anchor="middle">5</text>
+
+    <!-- Main Title Block -->
+    <g transform="translate(225, 10)">
+      <rect x="-5" y="-5" width="465" height="30" rx="6" fill="#99f6e4" opacity="0.4"/>
+      <text x="10" y="17" font-family="'Noto Sans TC', sans-serif" font-size="13" font-weight="bold" fill="#115e59" letter-spacing="1">
+        POLITICAL OPINION 03 &amp; 05 ・ 城鄉所學會政見
+      </text>
+      <text x="10" y="50" font-family="'Noto Serif TC', serif" font-size="21" font-weight="900" fill="#0f172a">
+        建立學生學習意見回饋管道
+      </text>
+      <text x="10" y="76" font-family="'Noto Serif TC', serif" font-size="21" font-weight="900" fill="#0f172a">
+        ＆ 建立並運作實體交流版
+      </text>
+    </g>
+  </g>
+
+  <!-- Bulletin Board Illustration Container -->
+  <g transform="translate(60, 155)">
+    <!-- Board Base Frame -->
+    <rect x="0" y="0" width="680" height="245" rx="10" fill="#334155" stroke="#1e293b" stroke-width="4"/>
+    <rect x="10" y="10" width="660" height="225" rx="6" fill="#1e293b"/>
+    
+    <!-- Top label on board: 學生會佈告欄 -->
+    <rect x="250" y="18" width="180" height="28" rx="4" fill="#0284c7"/>
+    <text x="340" y="37" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="2">
+      📌 學生會佈告欄
+    </text>
+
+    <!-- Pinned Policy 3 Note -->
+    <g transform="translate(30, 60)">
+      <rect x="0" y="0" width="290" height="155" rx="8" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.3))"/>
+      <!-- Pin -->
+      <circle cx="145" cy="10" r="6" fill="#ef4444"/>
+      
+      <text x="20" y="35" font-family="'Noto Serif TC', serif" font-size="16" font-weight="900" fill="#166534">
+        【政見 3】常態回饋機制
+      </text>
+      <text x="20" y="65" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        由所學會藉由線上表單或預約
+      </text>
+      <text x="20" y="85" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        幹部時間，蒐集整理同學對課程
+      </text>
+      <text x="20" y="105" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        與制度之意見，並透過所務會議
+      </text>
+      <text x="20" y="125" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        及其他可行管道反應。
+      </text>
+    </g>
+
+    <!-- Pinned Policy 5 Note -->
+    <g transform="translate(360, 60)">
+      <rect x="0" y="0" width="290" height="155" rx="8" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.3))"/>
+      <!-- Pin -->
+      <circle cx="145" cy="10" r="6" fill="#ef4444"/>
+
+      <text x="20" y="35" font-family="'Noto Serif TC', serif" font-size="16" font-weight="900" fill="#92400e">
+        【政見 5】實體交流版運作
+      </text>
+      <text x="20" y="65" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        支持師生以實體佈告欄表達意見
+      </text>
+      <text x="20" y="85" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        或創作，由所學會定期重置版面，
+      </text>
+      <text x="20" y="105" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        改善師生被動接受特定事件
+      </text>
+      <text x="20" y="125" font-family="'Noto Sans TC', sans-serif" font-size="12" fill="#1e293b" font-weight="500">
+        議題之處境。
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Quote -->
+  <g transform="translate(60, 420)">
+    <rect x="0" y="0" width="680" height="48" rx="8" fill="#0f766e"/>
+    <text x="340" y="28" font-family="'Noto Serif TC', serif" font-size="13" fill="#ccfbf1" text-anchor="middle">
+      「因為學著批判，所以掌握自由；因為練習反思，所以懂得活潑。」—— 李誡
+    </text>
+  </g>
+</svg>

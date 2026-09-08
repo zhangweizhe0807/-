@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="warmBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#warmBg)"/>
+  <rect x="15" y="15" width="770" height="470" rx="12" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+
+  <!-- Top Policy Badge -->
+  <g transform="translate(60, 40)">
+    <!-- Big Orange Circular Badge "2" -->
+    <circle cx="50" cy="50" r="44" fill="#ea580c" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.15))"/>
+    <circle cx="50" cy="50" r="38" fill="none" stroke="#ffedd5" stroke-width="2"/>
+    <text x="50" y="68" font-family="'Noto Serif TC', serif" font-size="54" font-weight="900" fill="#ffffff" text-anchor="middle">2</text>
+
+    <!-- Main Title Block -->
+    <g transform="translate(120, 15)">
+      <rect x="-5" y="-5" width="560" height="34" rx="6" fill="#fed7aa" opacity="0.5"/>
+      <text x="10" y="20" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="bold" fill="#9a3412" letter-spacing="1">
+        POLITICAL OPINION 02 ・ 城鄉所學會政見
+      </text>
+      <text x="10" y="58" font-family="'Noto Serif TC', serif" font-size="28" font-weight="900" fill="#431407">
+        支持各規模及性質之學生社群運作
+      </text>
+    </g>
+  </g>
+
+  <!-- Official Quote Banner Card -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="680" height="95" rx="12" fill="#ffffff" stroke="#f97316" stroke-width="2" filter="drop-shadow(0 4px 8px rgba(234,88,12,0.08))"/>
+    <rect x="0" y="0" width="12" height="95" rx="4" fill="#ea580c"/>
+    <text x="30" y="32" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="bold" fill="#ea580c" letter-spacing="1">
+      ★ 官方文宣核心承諾方針
+    </text>
+    <text x="30" y="60" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#1c1917">
+      「提供小額啟動基金或場地支持各讀書會、AI技術分享會、
+    </text>
+    <text x="30" y="82" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#1c1917">
+      　早睡早起互助會... 等由學生自主運作之非正式社群」
+    </text>
+  </g>
+
+  <!-- Supported Non-Formal Community Badges Grid -->
+  <g transform="translate(60, 275)">
+    <!-- Subgroup 1: 讀書會 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="210" height="120" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="1.5"/>
+      <circle cx="35" cy="35" r="18" fill="#ffedd5"/>
+      <text x="35" y="42" font-size="18" text-anchor="middle">📚</text>
+      <text x="65" y="40" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#7c2d12">各類專業讀書會</text>
+      <text x="18" y="75" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">・提供簡化小額購書基金</text>
+      <text x="18" y="95" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">・印製文本講義與研讀茶水</text>
+    </g>
+
+    <!-- Subgroup 2: AI技術分享會 -->
+    <g transform="translate(235, 0)">
+      <rect x="0" y="0" width="210" height="120" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="1.5"/>
+      <circle cx="35" cy="35" r="18" fill="#e0f2fe"/>
+      <text x="35" y="42" font-size="18" text-anchor="middle">💻</text>
+      <text x="65" y="40" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#0369a1">AI技術分享會</text>
+      <text x="18" y="75" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">・前沿科技工具落地城鄉實踐</text>
+      <text x="18" y="95" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">・跨組經驗協同工作坊</text>
+    </g>
+
+    <!-- Subgroup 3: 早睡早起互助會 -->
+    <g transform="translate(470, 0)">
+      <rect x="0" y="0" width="210" height="120" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="1.5"/>
+      <circle cx="35" cy="35" r="18" fill="#fef3c7"/>
+      <text x="35" y="42" font-size="18" text-anchor="middle">☀️</text>
+      <text x="65" y="40" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#b45309">早睡早起互助會</text>
+      <text x="18" y="75" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">・守護研究生身心作息平衡</text>
+      <text x="18" y="95" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#78716c">・生活彼此打氣支持陪伴</text>
+    </g>
+  </g>
+
+  <!-- Bottom Quote -->
+  <g transform="translate(60, 420)">
+    <rect x="0" y="0" width="680" height="48" rx="8" fill="#7c2d12"/>
+    <text x="340" y="28" font-family="'Noto Serif TC', serif" font-size="13" fill="#fef3c7" text-anchor="middle">
+      「面對一個個不同性質和規模的社群、一次次討論，我想以擅長的方式支持社群發展」—— 麻筱祺
+    </text>
+  </g>
+</svg>

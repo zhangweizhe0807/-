@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="skyBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f9ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#skyBg)"/>
+  <rect x="15" y="15" width="770" height="470" rx="12" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="6,4" opacity="0.6"/>
+
+  <!-- Top Badge "4" -->
+  <g transform="translate(60, 40)">
+    <!-- Square Badge 4 -->
+    <rect x="5" y="5" width="80" height="80" rx="16" fill="#0284c7" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.15))"/>
+    <rect x="11" y="11" width="68" height="68" rx="12" fill="none" stroke="#bae6fd" stroke-width="2"/>
+    <text x="45" y="65" font-family="'Noto Serif TC', serif" font-size="54" font-weight="900" fill="#ffffff" text-anchor="middle">4</text>
+
+    <!-- Main Title Block -->
+    <g transform="translate(110, 15)">
+      <rect x="-5" y="-5" width="570" height="34" rx="6" fill="#bae6fd" opacity="0.5"/>
+      <text x="10" y="20" font-family="'Noto Sans TC', sans-serif" font-size="14" font-weight="bold" fill="#0369a1" letter-spacing="1">
+        POLITICAL OPINION 04 ・ 城鄉所學會政見
+      </text>
+      <text x="10" y="58" font-family="'Noto Serif TC', serif" font-size="28" font-weight="900" fill="#0c4a6e">
+        改善現有學習空間
+      </text>
+    </g>
+  </g>
+
+  <!-- Official Quote Banner Card -->
+  <g transform="translate(60, 160)">
+    <rect x="0" y="0" width="680" height="85" rx="12" fill="#ffffff" stroke="#0284c7" stroke-width="2" filter="drop-shadow(0 4px 8px rgba(2,132,199,0.08))"/>
+    <rect x="0" y="0" width="12" height="85" rx="4" fill="#0284c7"/>
+    <text x="30" y="30" font-family="'Noto Sans TC', sans-serif" font-size="12" font-weight="bold" fill="#0284c7" letter-spacing="1">
+      ★ 官方文宣核心承諾方針
+    </text>
+    <text x="30" y="62" font-family="'Noto Serif TC', serif" font-size="18" font-weight="bold" fill="#0f172a">
+      「盤點教室基礎設施狀況，添購延長線並整理出可共享使用之置物空間」
+    </text>
+  </g>
+
+  <!-- Visual Action Scene: Wires, Thumbs Up, Storage -->
+  <g transform="translate(60, 265)">
+    <!-- Action 1: 盤點設施 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="210" height="135" rx="10" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+      <circle cx="35" cy="35" r="18" fill="#e0f2fe"/>
+      <text x="35" y="42" font-size="18" text-anchor="middle">🔍</text>
+      <text x="65" y="40" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#0369a1">教室設施盤點</text>
+      <text x="18" y="75" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#475569">・檢視教室與工作室供電</text>
+      <text x="18" y="95" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#475569">・桌椅、照明、空調修繕通報</text>
+      <text x="18" y="115" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#0369a1" font-weight="bold">李誡蹲地細心整線實拍 📸</text>
+    </g>
+
+    <!-- Action 2: 添購延長線 -->
+    <g transform="translate(235, 0)">
+      <rect x="0" y="0" width="210" height="135" rx="10" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+      <circle cx="35" cy="35" r="18" fill="#fef3c7"/>
+      <text x="35" y="42" font-size="18" text-anchor="middle">🔌</text>
+      <text x="65" y="40" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#b45309">添購安全延長線</text>
+      <text x="18" y="75" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#475569">・上課與評圖告別搶插座窘境</text>
+      <text x="18" y="95" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#475569">・消除老舊纏繞過載風險</text>
+      <text x="18" y="115" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#b45309" font-weight="bold">麻筱祺手拿延長線比讚 👍</text>
+    </g>
+
+    <!-- Action 3: 共享置物空間 -->
+    <g transform="translate(470, 0)">
+      <rect x="0" y="0" width="210" height="135" rx="10" fill="#ffffff" stroke="#bae6fd" stroke-width="1.5"/>
+      <circle cx="35" cy="35" r="18" fill="#f1f5f9"/>
+      <text x="35" y="42" font-size="18" text-anchor="middle">📦</text>
+      <text x="65" y="40" font-family="'Noto Serif TC', serif" font-size="17" font-weight="bold" fill="#334155">共享置物空間</text>
+      <text x="18" y="75" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#475569">・整理清空研究室積存雜物</text>
+      <text x="18" y="95" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#475569">・劃設公共儲物架與材料區</text>
+      <text x="18" y="115" font-family="'Noto Sans TC', sans-serif" font-size="11" fill="#334155" font-weight="bold">打造寬敞自在研習環境 ✨</text>
+    </g>
+  </g>
+
+  <!-- Bottom Quote -->
+  <g transform="translate(60, 420)">
+    <rect x="0" y="0" width="680" height="48" rx="8" fill="#0284c7"/>
+    <text x="340" y="28" font-family="'Noto Serif TC', serif" font-size="13" fill="#f0f9ff" text-anchor="middle">
+      「落實生活細節，就是我們對學習空間最真誠的守護。」—— 李誡 ＆ 麻筱祺
+    </text>
+  </g>
+</svg>
